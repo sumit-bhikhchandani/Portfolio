@@ -18,6 +18,9 @@
     --main-color: #59B2F4;
 }
 
+
+
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -764,6 +767,8 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+
 @media (max-width: 991px) {
     .about-skills {
         justify-content: center;
@@ -779,6 +784,8 @@ footer {
         width: calc(100% - 1rem); /* Full width for single column */
     }
 }
+
+
 
 /* Loader styles */
 #loader {
@@ -922,4 +929,3 @@ footer {
     color: #fff;
     background-color: #212121;
 }
-
