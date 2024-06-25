@@ -764,3 +764,18 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+@media (max-width: 991px) {
+    .about-skills {
+        justify-content: center;
+    }
+
+    .skills-box {
+        width: calc(50% - 1rem); /* Adjust width for two columns */
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-box {
+        width: calc(100% - 1rem); /* Full width for single column */
+    }
+}
