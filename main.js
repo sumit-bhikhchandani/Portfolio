@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         document.getElementById('loader').style.display = 'none';
         document.getElementById('content').style.display = 'block';
-    }, 2000); // Change to 4000 for 4 seconds
+    }, 1500); // Change to 4000 for 4 seconds
 });
 
 
